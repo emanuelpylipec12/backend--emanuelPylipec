@@ -49,10 +49,10 @@ console.log (productos.getProduct())
 
 productos.addProduct("titulo1", "descripcion1", 1000, "imagen1", "abc123", 5);
 productos.addProduct("titulo2", "descripcion2", 1000, "imagen2", "abc125", 7);
+productos.addProduct("titulo3", "descripcion3", 1000, "imagen3", "abc127", 9);
 
 
 console.log (productos.getProduct())
 
-productos.addProduct("titulo3", "descripcion3", 1000, "imagen3", "abc127", 9);
 
-//productos.getProductById(2)
+productos.getProductById(2)
